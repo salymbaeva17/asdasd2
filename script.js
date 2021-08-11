@@ -197,3 +197,12 @@
 // console.log(num9(60))
 // console.log(num9(61))
 // console.log(num9(-3))
+
+
+
+// function string(str) {
+//     return str.split(" ")[0].length
+// }
+//
+// console.log(string("lorem ipsum dolor sit amet"))
+// console.log(string("bonjorno amigos"))
