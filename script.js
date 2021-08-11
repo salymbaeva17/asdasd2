@@ -229,3 +229,11 @@
 // }
 //
 // console.log(string4("bonjorno amigos lorem ipsum dolor sit amet"))
+
+
+
+// function string5(str) {
+//     return str.split(" ")
+// }
+//
+// console.log(string5("lorem ipsum dolor sit amet"))
