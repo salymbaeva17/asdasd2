@@ -125,3 +125,19 @@
 // console.log(season(10))
 // console.log(season(11))
 // console.log(season(12))
+
+
+
+// function decade(day) {
+//     if (day >= 1 && day <= 10) {
+//         return "First decade"
+//     } else if (day >= 11 && day <= 20) {
+//         return "Second decade"
+//     } else if (day >= 21 && day <= 31) {
+//         return "Third decade"
+//     }
+// }
+//
+// console.log(decade(2))
+// console.log(decade(12))
+// console.log(decade(22))
