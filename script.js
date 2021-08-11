@@ -259,3 +259,12 @@
 // }
 //
 // console.log(concat("строка", "строка"))
+
+
+
+// function task24(str) {
+//     let array = str.split(' ')[1]
+//     return str.indexOf(array)
+// }
+//
+// console.log(task24("lorem ipsum dolor"))
