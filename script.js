@@ -87,3 +87,15 @@
 // console.log(num5(-2, 8))
 // console.log(num5(0, 5))
 // console.log(num5(1, 4))
+
+
+
+// function num6(a, b) {
+//     if (a > 7 && a < 12 || b >= 7 && b < 27) {
+//         return "Верно"
+//     }
+//     return "Неверно"
+// }
+//
+// console.log(num6(8, 20))
+// console.log(num6(5, 15))
