@@ -206,3 +206,11 @@
 //
 // console.log(string("lorem ipsum dolor sit amet"))
 // console.log(string("bonjorno amigos"))
+
+
+
+function string2(str) {
+    return str.split(" ")[1].toLowerCase()
+}
+
+console.log(string2("bonjorno AmIgOs"))
