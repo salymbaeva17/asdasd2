@@ -237,3 +237,10 @@
 // }
 //
 // console.log(string5("lorem ipsum dolor sit amet"))
+
+
+// function task21(str) {
+//     return str.slice(2, 6)
+// }
+//
+// console.log(task21("loremjgjkh ipsum dolor sit amet"))
