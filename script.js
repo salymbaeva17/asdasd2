@@ -251,3 +251,11 @@
 // }
 //
 // console.log(task22("lorem ipsum dolor sit amet"))
+
+
+
+// function concat(str, str2) {
+//     return str.concat(str2)
+// }
+//
+// console.log(concat("строка", "строка"))
