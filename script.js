@@ -209,8 +209,15 @@
 
 
 
-function string2(str) {
-    return str.split(" ")[1].toLowerCase()
-}
+// function string2(str) {
+//     return str.split(" ")[1].toLowerCase()
+// }
+//
+// console.log(string2("bonjorno AmIgOs"))
 
-console.log(string2("bonjorno AmIgOs"))
+
+// function string3(str) {
+//     return str.split(" ")[0].toUpperCase()
+// }
+//
+// console.log(string3("bonjorno amigos"))
