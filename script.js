@@ -60,3 +60,17 @@
 // console.log(num3(76))
 // console.log(num3(0))
 // console.log(num3(100))
+
+
+
+// function num4(a) {
+//     if (a === 3 || a === 7) {
+//         return a + 7
+//     }
+//     return a / 10
+// }
+//
+// console.log(num4(3))
+// console.log(num4(9))
+// console.log(num4(7))
+// console.log(num4(0))
