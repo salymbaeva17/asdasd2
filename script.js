@@ -154,3 +154,23 @@
 // console.log(num7(2))
 // console.log(num7(3))
 // console.log(num7(8))
+
+
+// function num8(age) {
+//     if (age === 1 || age % 10 === 1) {
+//         return `Мне ${age} год`
+//     } else if (age >= 10 && age <= 20) {
+//         return `Мне ${age} лет`
+//     } else if (age % 10 >= 2 && age % 10 <= 4) {
+//         return `Мне ${age} года`
+//     }
+//     return `Мне ${age} лет`
+// }
+//
+// console.log(num8(2))
+// console.log(num8(31))
+// console.log(num8(23))
+// console.log(num8(25))
+// console.log(num8(1))
+// console.log(num8(12))
+// console.log(num8(32))
