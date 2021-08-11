@@ -174,3 +174,26 @@
 // console.log(num8(1))
 // console.log(num8(12))
 // console.log(num8(32))
+
+
+
+// function num9(time) {
+//     if (time >= 0 && time <= 15) {
+//         return "Первая четверть"
+//     } else if (time >= 15 && time <= 30) {
+//         return "Вторая четверть"
+//     } else if (time >= 30 && time <= 45) {
+//         return "Третья четверть"
+//     } else if (time >= 45 && time <= 60) {
+//         return "Четвертая четверть"
+//     }
+//     return "Неверное число"
+// }
+//
+// console.log(num9(0))
+// console.log(num9(15))
+// console.log(num9(30))
+// console.log(num9(45))
+// console.log(num9(60))
+// console.log(num9(61))
+// console.log(num9(-3))
