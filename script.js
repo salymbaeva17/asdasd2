@@ -23,3 +23,12 @@
 // console.log(a(27))
 
 
+// function divide(a, b) {
+//     if (a % b === 0) {
+//         return "delitsya"
+//     }
+//     return "ne delitsya"
+// }
+//
+// console.log(divide(10, 9))
+// console.log(divide(10, 2))
