@@ -221,3 +221,11 @@
 // }
 //
 // console.log(string3("bonjorno amigos"))
+
+
+
+// function string4(str) {
+//     return str.split("")
+// }
+//
+// console.log(string4("bonjorno amigos lorem ipsum dolor sit amet"))
