@@ -74,3 +74,16 @@
 // console.log(num4(9))
 // console.log(num4(7))
 // console.log(num4(0))
+
+
+
+// function num5(a, b) {
+//     if (a <= 0 && b >= 5) {
+//         return a + b
+//     }
+//     return a - b
+// }
+//
+// console.log(num5(-2, 8))
+// console.log(num5(0, 5))
+// console.log(num5(1, 4))
