@@ -34,7 +34,6 @@
 // console.log(divide(10, 2))
 
 
-
 // function task6(s) {
 //     if (typeof s === "string") {
 //         return "String"
@@ -62,7 +61,6 @@
 // console.log(num3(100))
 
 
-
 // function num4(a) {
 //     if (a === 3 || a === 7) {
 //         return a + 7
@@ -76,7 +74,6 @@
 // console.log(num4(0))
 
 
-
 // function num5(a, b) {
 //     if (a <= 0 && b >= 5) {
 //         return a + b
@@ -87,7 +84,6 @@
 // console.log(num5(-2, 8))
 // console.log(num5(0, 5))
 // console.log(num5(1, 4))
-
 
 
 // function num6(a, b) {
@@ -125,7 +121,6 @@
 // console.log(season(10))
 // console.log(season(11))
 // console.log(season(12))
-
 
 
 // function decade(day) {
@@ -176,7 +171,6 @@
 // console.log(num8(32))
 
 
-
 // function num9(time) {
 //     if (time >= 0 && time <= 15) {
 //         return "Первая четверть"
@@ -199,14 +193,12 @@
 // console.log(num9(-3))
 
 
-
 // function string(str) {
 //     return str.split(" ")[0].length
 // }
 //
 // console.log(string("lorem ipsum dolor sit amet"))
 // console.log(string("bonjorno amigos"))
-
 
 
 // function string2(str) {
@@ -223,13 +215,11 @@
 // console.log(string3("bonjorno amigos"))
 
 
-
 // function string4(str) {
 //     return str.split("")
 // }
 //
 // console.log(string4("bonjorno amigos lorem ipsum dolor sit amet"))
-
 
 
 // function string5(str) {
@@ -253,13 +243,11 @@
 // console.log(task22("lorem ipsum dolor sit amet"))
 
 
-
 // function concat(str, str2) {
 //     return str.concat(str2)
 // }
 //
 // console.log(concat("строка", "строка"))
-
 
 
 // function task24(str) {
@@ -292,3 +280,59 @@
 // console.log(task26("Elsa"))
 // console.log(task26("Anastasia"))
 // console.log(task26("Egor"))
+
+
+// function isPrime(num) {
+//     if (num < 2) {
+//         return false
+//     }
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0){
+//             return false
+//         }
+//     }
+//     return true
+// }
+//
+// console.log(isPrime(73))
+
+
+
+// function anagrams(word, words){
+//     return words.filter(function(e){
+//        return e.split("").sort().join("")=== word.split("").sort().join("")
+//     })
+// }
+// console.log(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
+
+
+// function solution(number){
+//     let sum = 0
+// for (let i = 1; i < number; i++){
+//     if (0 === i % 3  || 0 === i % 5){
+//         sum += i
+//     }
+// }
+// return sum
+// }
+// console.log(solution(15))
+
+
+// function digital_root(n) {
+//     if (n < 10){
+//        return n
+//     }
+//      return digital_root(String(n).split("").reduce((acc, item) => acc + +item, 0))
+// }
+//
+// console.log(digital_root(181))
+
+
+
+// function duplicateCount(text){
+//     return (text.toLowerCase().split("").sort().join("").match(/([^])\1+/g) || []).length
+// }
+//
+// console.log(duplicateCount("aabbcde"))
+
+
