@@ -336,3 +336,7 @@
 // console.log(duplicateCount("aabbcde"))
 
 
+// function findOdd(A) {
+//     return A.find(item => A.filter(el  => el === item).length % 2)
+// }
+// console.log(findOdd([3,35,6,7,4,3,73,4,6,4, 35, 35]))
