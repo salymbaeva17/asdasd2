@@ -409,3 +409,13 @@
 //
 // console.log(task32(7, 1))
 // console.log(task32(1, 1))
+
+
+
+// function task33(age) {
+//     return age < 18 ? "вы должны быть старше 18" : age > 18 ? "добро пожаловать!" : "не разрешено!"
+// }
+//
+// console.log(task33(12))
+// console.log(task33(18))
+// console.log(task33(20))
