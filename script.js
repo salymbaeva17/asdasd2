@@ -431,3 +431,13 @@
 // console.log(task34("yellow"))
 // console.log(task34("blue"))
 
+
+
+// function task35(str) {
+//     return +(str[0]) + +(str[1]) + +(str[2])
+//
+// }
+//
+// console.log(task35('617'))
+// console.log(task35('456'))
+// console.log(task35('123'))
