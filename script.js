@@ -384,3 +384,12 @@
 // }
 //
 // console.log(task29("17-02-2021"))
+
+
+
+// function task30(str) {
+//     return str.includes("л") ? "Да" : "Нет"
+// }
+//
+// console.log(task30("Максимально ужасно"))
+// console.log(task30("Как ты поживаешь?"))
