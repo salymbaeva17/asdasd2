@@ -419,3 +419,15 @@
 // console.log(task33(12))
 // console.log(task33(18))
 // console.log(task33(20))
+
+
+
+// function task34(light) {
+//     return light === "green" ? "можете ехать" : light === "yellow" ? "немного подождите" : light === "red" ? "остановитесь" : "неизвестно"
+// }
+//
+// console.log(task34("green"))
+// console.log(task34("red"))
+// console.log(task34("yellow"))
+// console.log(task34("blue"))
+
