@@ -401,3 +401,11 @@
 //
 // console.log(task31("Максимально ужасно, переделывай"))
 // console.log(task31("Apkosjf jngdnjnvjaA"))
+
+
+// function task32(today, birthday) {
+//     return today === birthday ? "Happy Birthday!" : "Not Today!"
+// }
+//
+// console.log(task32(7, 1))
+// console.log(task32(1, 1))
