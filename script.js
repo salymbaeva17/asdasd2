@@ -393,3 +393,11 @@
 //
 // console.log(task30("Максимально ужасно"))
 // console.log(task30("Как ты поживаешь?"))
+
+
+// function task31(str) {
+//     return str[0] === str[str.length - 1] ? "Совпадает" : "Не совпадает"
+// }
+//
+// console.log(task31("Максимально ужасно, переделывай"))
+// console.log(task31("Apkosjf jngdnjnvjaA"))
