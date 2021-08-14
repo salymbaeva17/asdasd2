@@ -377,3 +377,10 @@
 // console.log(task28("sevenhbkug plus eight"))
 // console.log(task28_1("sevenhbkug plus eight"))
 // console.log(task28_2("sevenhbkug plus eight"))
+
+
+// function task29(str) {
+//     return str.replace(/-/g, "/")
+// }
+//
+// console.log(task29("17-02-2021"))
