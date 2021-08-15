@@ -469,3 +469,13 @@
 // let name1 = array[0]
 // let name2 = array[1]
 // console.log(`${name1[0]}${name2.substr(1)} ` + `${name2[0]}${name1.substr(1)}`)
+
+
+
+
+// const task12 = array => {
+//     let name1 = array[1][0] + array[0].slice(1)
+//     let name2 = array[0][0] + array[1].slice(1)
+//     return [name1, name2]
+// }
+// console.log(task12(['Баяман', 'Калмамат']))
