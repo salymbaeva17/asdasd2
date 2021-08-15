@@ -491,3 +491,10 @@
 //     return num.map(item => item * 84.9)
 // }
 // console.log(task13( [1, 65, 13 , 30, 100] ))
+
+
+
+// const task14 = name =>{
+//     return name .map(item=>item[0].toUpperCase() + item.substr(1).toLowerCase())
+// }
+// console.log(task14(['асКар', 'бЯяман', 'калМмамат']))
