@@ -441,3 +441,15 @@
 // console.log(task35('617'))
 // console.log(task35('456'))
 // console.log(task35('123'))
+
+
+
+// let value = [NaN, 0, 77, false, -17, '',undefined, 99, null]
+// let result = value.filter(item => item)
+// console.log(result)
+//
+// const task11 = num => {
+//     return num.filter(item => item)
+// }
+// console.log(task11([NaN, 0, 77, false, -17, '',undefined, 99, null]))
+//
