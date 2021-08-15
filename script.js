@@ -513,3 +513,12 @@
 // console.log(example[1]) //Kolya
 // console.log(example[0][0]) //M
 // console.log(example[1][0]) //K
+
+
+
+// const task1 = array => {
+//     return array.reduce((acc, item) => {
+//         return acc + item
+//     }, 0)
+// }
+// console.log(task1( [5,15,315,2,13,20,9]))
