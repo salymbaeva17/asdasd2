@@ -479,3 +479,15 @@
 //     return [name1, name2]
 // }
 // console.log(task12(['Баяман', 'Калмамат']))
+
+
+
+
+// let dollars =  [1, 65, 13 , 30, 100]
+// let soms = dollars.map(item => item * 84.9)
+// console.log(soms)
+//
+// const task13 = num =>{
+//     return num.map(item => item * 84.9)
+// }
+// console.log(task13( [1, 65, 13 , 30, 100] ))
