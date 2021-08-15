@@ -498,3 +498,18 @@
 //     return name .map(item=>item[0].toUpperCase() + item.substr(1).toLowerCase())
 // }
 // console.log(task14(['асКар', 'бЯяман', 'калМмамат']))
+
+
+
+// const task15 = name => {
+//     return name.map((item, idx)=>{
+//         return `${idx + 1}.${item}`
+//     })
+// }
+// console.log(task15( ['Оскар', 'Баяман', 'Калмамат']))
+
+// let example = ['Misha', 'Kolya']
+// console.log(example[0]) //Misha
+// console.log(example[1]) //Kolya
+// console.log(example[0][0]) //M
+// console.log(example[1][0]) //K
