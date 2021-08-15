@@ -453,3 +453,19 @@
 // }
 // console.log(task11([NaN, 0, 77, false, -17, '',undefined, 99, null]))
 //
+
+
+// let array = ['Бегимай', 'Баяман', 'Калмамат']
+// let result = array.map(item => item.length)
+// console.log(result)
+//
+// let array1 = ['Баяман', 'Калмамат']
+// let name1 = array1[0].replace("Б", "К")
+// let name2 = array1[1].replace("К", "Б")
+// let array2 = [name1, name2]
+// console.log(array2)
+//
+// let array = ['Баяман', 'Калмамат']
+// let name1 = array[0]
+// let name2 = array[1]
+// console.log(`${name1[0]}${name2.substr(1)} ` + `${name2[0]}${name1.substr(1)}`)
