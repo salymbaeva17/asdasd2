@@ -585,3 +585,17 @@
 // console.log(task9(['асКар', 'бЯяман', 'калМмамат']))
 
 
+// const task11 = array => {
+//     return array.reduce( (acc, item) =>{
+//         if (typeof item === typeof array[0] ) {
+//             return acc && true
+//         }
+//         return  acc && false
+//     }, true)
+// }
+// console.log(task11( [true, '1234', 325]))
+// console.log(task11( [265, 265, 325]))
+// console.log(task11( [true, " ", true, true]))
+// console.log(task11( ['1234', '1234', 566,  '1234']))
+
+
