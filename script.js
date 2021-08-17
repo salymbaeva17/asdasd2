@@ -562,3 +562,9 @@
 //     return array.reduce((acc, item) => acc + item.length, 0)
 // }
 // console.log(task5( ['Аскар', 'Баяман', 'Калмамат']))
+
+
+// const task6 = (array) => {
+//     return array.map(item => item.toUpperCase())
+// }
+// console.log(task6(['Аскар', 'Баяман', 'Калмамат']))
