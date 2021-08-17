@@ -568,3 +568,12 @@
 //     return array.map(item => item.toUpperCase())
 // }
 // console.log(task6(['Аскар', 'Баяман', 'Калмамат']))
+
+
+// const task7 = array => {
+//     return array.map((item, idx) => {
+//        return  idx % 2 === 1 ? item.toUpperCase() : item
+//     })
+// }
+// console.log(task7(['Аскар', 'Баяман', 'Калмамат']))
+// console.log(task7(['Аскар', 'Баяман', 'Калмамат', 'Тилек']))
