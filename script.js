@@ -609,3 +609,9 @@
 // console.log(task12('Нечётная'))
 
 
+// const task13 = array =>{
+//     return array.reduce((acc, item) => {
+//        return  item > 0 ? acc + item : acc
+//     }, 0)
+// }
+// console.log(task13( [5, -3, 13, -7, 45]))
