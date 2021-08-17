@@ -549,3 +549,12 @@
 //     }, 0)
 // }
 // console.log(task4([3,13,54,15,335, 39]))
+
+
+// const task5 = (array) => {
+//     return array.reduce((acc, item) => acc + item, "").length
+// }
+// console.log(task5( ['Аскар', 'Баяман', 'Калмамат']))
+
+
+
