@@ -615,3 +615,11 @@
 //     }, 0)
 // }
 // console.log(task13( [5, -3, 13, -7, 45]))
+
+
+// const task14 = array => {
+//     return array.reduce((acc, item)=> {
+//         return item < -10 ? acc + item : acc
+//     }, 0)
+// }
+// console.log(task14([5, -54, 13, -7, 45, -15, -34]))
