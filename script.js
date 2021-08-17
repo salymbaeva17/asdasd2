@@ -558,3 +558,7 @@
 
 
 
+// const task5 = (array) => {
+//     return array.reduce((acc, item) => acc + item.length, 0)
+// }
+// console.log(task5( ['Аскар', 'Баяман', 'Калмамат']))
