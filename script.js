@@ -577,3 +577,11 @@
 // }
 // console.log(task7(['Аскар', 'Баяман', 'Калмамат']))
 // console.log(task7(['Аскар', 'Баяман', 'Калмамат', 'Тилек']))
+
+
+// const task9 = array => {
+//     return array.map( item => item[0].toUpperCase() + item.slice(1).toLowerCase())
+// }
+// console.log(task9(['асКар', 'бЯяман', 'калМмамат']))
+
+
