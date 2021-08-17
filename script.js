@@ -599,3 +599,13 @@
 // console.log(task11( ['1234', '1234', 566,  '1234']))
 
 
+// const task12 = testing =>{
+//     if ( testing.length % 2 === 0){
+//         return testing.substr(testing.length/ 2 - 1, 2)
+//     }
+//     return testing.substr(Math.floor(testing.length / 2), 1)
+// }
+// console.log(task12('testing'))
+// console.log(task12('Нечётная'))
+
+
