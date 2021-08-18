@@ -720,3 +720,27 @@ console.log(maxRedigit(321))
 console.log(maxRedigit(-123))
 console.log(maxRedigit(1000))
 console.log(maxRedigit(99))
+
+
+// const maskify = cc => {
+//     let length = cc.length
+//     let array = cc.split("")
+//     let visible = cc.slice(-4)
+//     let newArray = []
+//     if (length <= 4){
+//         return cc
+//     } else if (length > 4){
+//         let index = length - 4
+//         array.splice(index, 4)
+//         array.forEach(n => {
+//             newArray = [...newArray, "#"]
+//             return newArray
+//         })
+//         return newArray.concat(visible).join("")
+//     }
+// }
+// console.log(maskify("1876543q234567890"))
+// console.log(maskify("1876543q234567890"))
+// console.log(maskify("Nananananananananananananananana Batman!"))
+
+
