@@ -662,3 +662,9 @@
 // console.log(rentalCarCost(7))
 // console.log(rentalCarCost(1))
 //
+// const getMiddle = str => str.length % 2 === 0 ? str.substr( str.length/2 - 1, 2 ) : str.substr(str.length/2, 1)
+// console.log(getMiddle("testing"))
+// console.log(getMiddle("Нечётная"))
+// console.log(getMiddle("Улан"))
+// console.log(getMiddle("Alikhan"))
+// console.log(getMiddle("Тимурлан"))
