@@ -632,3 +632,15 @@
 //     })
 // }
 // console.log(task15([88, 5, 3 , 210, 99]))
+
+
+
+// const task17 = array =>{
+//     return array.map((item, idx) => {
+//         return `${idx + 1}.${item}`
+//     })
+// }
+// console.log(task17(['apple', 'banana', 'potato']))
+// console.log(task17(['pineapple', 'peach', 'mango']))
+
+
