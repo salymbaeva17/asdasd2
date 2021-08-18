@@ -623,3 +623,12 @@
 //     }, 0)
 // }
 // console.log(task14([5, -54, 13, -7, 45, -15, -34]))
+
+
+
+// const task15 = array =>{
+//     return array.map(item => {
+//         return item * 100
+//     })
+// }
+// console.log(task15([88, 5, 3 , 210, 99]))
