@@ -644,3 +644,7 @@
 // console.log(task17(['pineapple', 'peach', 'mango']))
 
 
+// const task20 = array => {
+//     return array.reduce((acc, item) => acc + item / array.length, 0 )
+// }
+// console.log(task20([5,15,315,2,13,20,9]))
