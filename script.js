@@ -696,3 +696,27 @@ const findSquares = num => {
 };
 console.log(findSquares(81))
 console.log(findSquares(5))
+
+
+
+const maxRedigit = num => {
+    if (num < 100 || num > 1000) {
+        return null
+    } else if (num > 999) {
+        return null
+    } else if (num > 99 && num < 1000) {
+        return +`${num}`
+            .split("")
+            .sort((a, b) => b - a)
+            .join("")
+    } else if (num === +`${num}`.split("").sort((a, b) => b - a).join("")) {
+        return num
+    }
+
+}
+
+console.log(maxRedigit(123))
+console.log(maxRedigit(321))
+console.log(maxRedigit(-123))
+console.log(maxRedigit(1000))
+console.log(maxRedigit(99))
