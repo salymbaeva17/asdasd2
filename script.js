@@ -668,3 +668,21 @@
 // console.log(getMiddle("Улан"))
 // console.log(getMiddle("Alikhan"))
 // console.log(getMiddle("Тимурлан"))
+
+
+
+
+// const countWords = (str) => {
+//     return str.trim().split().length
+// }
+//
+// console.log(countWords("Dear   Victoria, I love  to press   space button."))
+// console.log(countWords("﻿Hello﻿World "))
+// console.log(countWords(" Hello"))
+// console.log(countWords("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."))
+//
+//
+// const array= arr => arr.split(",").slice(1,-1).join(" ") || null
+// console.log(array("1,2,3"))
+//
+// console.log(array('1'))
