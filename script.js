@@ -744,3 +744,8 @@ console.log(maxRedigit(99))
 // console.log(maskify("Nananananananananananananananana Batman!"))
 
 
+// const maskify = cc => {
+//     return `${cc.slice(0, -4).replace(/./g, '#')}${cc.slice(-4)}`
+// }
+//
+// console.log(maskify("gyftsdxgfchvjbknjgfdrseS"))
