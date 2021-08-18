@@ -648,3 +648,17 @@
 //     return array.reduce((acc, item) => acc + item / array.length, 0 )
 // }
 // console.log(task20([5,15,315,2,13,20,9]))
+
+
+// function rentalCarCost(d) {
+//     let perDay = 40
+//     let cost = perDay * d
+//     return +d.toString().split(" ").map(item => item >= 7 ? cost - 50 : item >= 3 ? cost - 20 : cost)
+// }
+//
+// console.log(rentalCarCost(8))
+// console.log(rentalCarCost(2))
+// console.log(rentalCarCost(3))
+// console.log(rentalCarCost(7))
+// console.log(rentalCarCost(1))
+//
