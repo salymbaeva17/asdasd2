@@ -749,3 +749,11 @@ console.log(maxRedigit(99))
 // }
 //
 // console.log(maskify("gyftsdxgfchvjbknjgfdrseS"))
+
+
+
+// const DNAStrand = dna => {
+//     return dna.replace(/"A"/g, "T")
+// }
+//
+// console.log(DNAStrand("AATTGC"))
