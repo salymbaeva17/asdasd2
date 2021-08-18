@@ -686,3 +686,13 @@
 // console.log(array("1,2,3"))
 //
 // console.log(array('1'))
+
+
+
+const findSquares = num => {
+    let a = (num - 1) / 2
+    let b = a + 1
+    return `${b * b}-${a * a}`
+};
+console.log(findSquares(81))
+console.log(findSquares(5))
