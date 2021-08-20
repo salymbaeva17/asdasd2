@@ -757,3 +757,16 @@ console.log(maxRedigit(99))
 // }
 //
 // console.log(DNAStrand("AATTGC"))
+
+function multiple(x) {
+    return x % 15 === 0 ? "BangBoom" : x % 3 === 0 ? "Bang": x % 5 === 0 ? "Boom": "Miss"
+}
+
+var splitInParts = function(s, partLength){
+    let array = []
+    for (let i = 0; i < s.length; i += partLength) {
+        array.push(s.slice(i, i+partLength))
+    }
+    return array.join(" ")
+}
+console.log(splitInParts("HelloKata", 8))
