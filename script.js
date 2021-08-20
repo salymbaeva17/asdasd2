@@ -761,3 +761,11 @@ function vowelsAndConsonants(s) {
     }
     console.log(consonants.trim());
 }
+
+
+function reverseString(s) {
+    let answer = Number(s.split("").reverse().join(""))
+    return answer
+}
+
+console.log(reverseString("4321"))
