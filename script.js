@@ -297,7 +297,6 @@
 // console.log(isPrime(73))
 
 
-
 // function anagrams(word, words){
 //     return words.filter(function(e){
 //        return e.split("").sort().join("")=== word.split("").sort().join("")
@@ -326,7 +325,6 @@
 // }
 //
 // console.log(digital_root(181))
-
 
 
 // function duplicateCount(text){
@@ -386,7 +384,6 @@
 // console.log(task29("17-02-2021"))
 
 
-
 // function task30(str) {
 //     return str.includes("л") ? "Да" : "Нет"
 // }
@@ -411,7 +408,6 @@
 // console.log(task32(1, 1))
 
 
-
 // function task33(age) {
 //     return age < 18 ? "вы должны быть старше 18" : age > 18 ? "добро пожаловать!" : "не разрешено!"
 // }
@@ -419,7 +415,6 @@
 // console.log(task33(12))
 // console.log(task33(18))
 // console.log(task33(20))
-
 
 
 // function task34(light) {
@@ -432,7 +427,6 @@
 // console.log(task34("blue"))
 
 
-
 // function task35(str) {
 //     return +(str[0]) + +(str[1]) + +(str[2])
 //
@@ -441,7 +435,6 @@
 // console.log(task35('617'))
 // console.log(task35('456'))
 // console.log(task35('123'))
-
 
 
 // let value = [NaN, 0, 77, false, -17, '',undefined, 99, null]
@@ -471,16 +464,12 @@
 // console.log(`${name1[0]}${name2.substr(1)} ` + `${name2[0]}${name1.substr(1)}`)
 
 
-
-
 // const task12 = array => {
 //     let name1 = array[1][0] + array[0].slice(1)
 //     let name2 = array[0][0] + array[1].slice(1)
 //     return [name1, name2]
 // }
 // console.log(task12(['Баяман', 'Калмамат']))
-
-
 
 
 // let dollars =  [1, 65, 13 , 30, 100]
@@ -493,12 +482,10 @@
 // console.log(task13( [1, 65, 13 , 30, 100] ))
 
 
-
 // const task14 = name =>{
 //     return name .map(item=>item[0].toUpperCase() + item.substr(1).toLowerCase())
 // }
 // console.log(task14(['асКар', 'бЯяман', 'калМмамат']))
-
 
 
 // const task15 = name => {
@@ -515,14 +502,12 @@
 // console.log(example[1][0]) //K
 
 
-
 // const task1 = array => {
 //     return array.reduce((acc, item) => {
 //         return acc + item
 //     }, 0)
 // }
 // console.log(task1( [5,15,315,2,13,20,9]))
-
 
 
 // const task2 = array => {
@@ -532,7 +517,6 @@
 // }
 // console.log(task2([7, 4, 8, 9, 11]))
 // console.log(task2([5, 12, 314, 2, 13, 20, 9]))
-
 
 
 // const task3 = array => {
@@ -555,7 +539,6 @@
 //     return array.reduce((acc, item) => acc + item, "").length
 // }
 // console.log(task5( ['Аскар', 'Баяман', 'Калмамат']))
-
 
 
 // const task5 = (array) => {
@@ -625,14 +608,12 @@
 // console.log(task14([5, -54, 13, -7, 45, -15, -34]))
 
 
-
 // const task15 = array =>{
 //     return array.map(item => {
 //         return item * 100
 //     })
 // }
 // console.log(task15([88, 5, 3 , 210, 99]))
-
 
 
 // const task17 = array =>{
@@ -670,8 +651,6 @@
 // console.log(getMiddle("Тимурлан"))
 
 
-
-
 // const countWords = (str) => {
 //     return str.trim().split().length
 // }
@@ -688,7 +667,6 @@
 // console.log(array('1'))
 
 
-
 const findSquares = num => {
     let a = (num - 1) / 2
     let b = a + 1
@@ -696,7 +674,6 @@ const findSquares = num => {
 };
 console.log(findSquares(81))
 console.log(findSquares(5))
-
 
 
 const maxRedigit = num => {
@@ -751,7 +728,6 @@ console.log(maxRedigit(99))
 // console.log(maskify("gyftsdxgfchvjbknjgfdrseS"))
 
 
-
 // const DNAStrand = dna => {
 //     return dna.replace(/"A"/g, "T")
 // }
@@ -759,14 +735,29 @@ console.log(maxRedigit(99))
 // console.log(DNAStrand("AATTGC"))
 
 function multiple(x) {
-    return x % 15 === 0 ? "BangBoom" : x % 3 === 0 ? "Bang": x % 5 === 0 ? "Boom": "Miss"
+    return x % 15 === 0 ? "BangBoom" : x % 3 === 0 ? "Bang" : x % 5 === 0 ? "Boom" : "Miss"
 }
 
-var splitInParts = function(s, partLength){
+var splitInParts = function (s, partLength) {
     let array = []
     for (let i = 0; i < s.length; i += partLength) {
-        array.push(s.slice(i, i+partLength))
+        array.push(s.slice(i, i + partLength))
     }
     return array.join(" ")
 }
 console.log(splitInParts("HelloKata", 8))
+
+
+function vowelsAndConsonants(s) {
+
+    let vowels = 'aeiou';
+    let consonants = '';
+    for (let i = 0; i < s.length; i++) {
+        if (vowels.includes(s[i])) {
+            console.log(s[i]);
+        } else {
+            consonants += s[i] + '\n';
+        }
+    }
+    console.log(consonants.trim());
+}
