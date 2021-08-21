@@ -734,38 +734,47 @@ console.log(maxRedigit(99))
 //
 // console.log(DNAStrand("AATTGC"))
 
-function multiple(x) {
-    return x % 15 === 0 ? "BangBoom" : x % 3 === 0 ? "Bang" : x % 5 === 0 ? "Boom" : "Miss"
+// function multiple(x) {
+//     return x % 15 === 0 ? "BangBoom" : x % 3 === 0 ? "Bang" : x % 5 === 0 ? "Boom" : "Miss"
+// }
+//
+// var splitInParts = function (s, partLength) {
+//     let array = []
+//     for (let i = 0; i < s.length; i += partLength) {
+//         array.push(s.slice(i, i + partLength))
+//     }
+//     return array.join(" ")
+// }
+// console.log(splitInParts("HelloKata", 8))
+
+
+// function vowelsAndConsonants(s) {
+//
+//     let vowels = 'aeiou';
+//     let consonants = '';
+//     for (let i = 0; i < s.length; i++) {
+//         if (vowels.includes(s[i])) {
+//             console.log(s[i]);
+//         } else {
+//             consonants += s[i] + '\n';
+//         }
+//     }
+//     console.log(consonants.trim());
+// }
+
+//
+// function reverseString(s) {
+//     let answer = Number(s.split("").reverse().join(""))
+//     return answer
+// }
+//
+// console.log(reverseString("4321"))
+
+
+function simpleArraySum(ar) {
+    let arr = ar.reduce((acc, item)=> acc+item, 0)
+    return arr
+
 }
 
-var splitInParts = function (s, partLength) {
-    let array = []
-    for (let i = 0; i < s.length; i += partLength) {
-        array.push(s.slice(i, i + partLength))
-    }
-    return array.join(" ")
-}
-console.log(splitInParts("HelloKata", 8))
-
-
-function vowelsAndConsonants(s) {
-
-    let vowels = 'aeiou';
-    let consonants = '';
-    for (let i = 0; i < s.length; i++) {
-        if (vowels.includes(s[i])) {
-            console.log(s[i]);
-        } else {
-            consonants += s[i] + '\n';
-        }
-    }
-    console.log(consonants.trim());
-}
-
-
-function reverseString(s) {
-    let answer = Number(s.split("").reverse().join(""))
-    return answer
-}
-
-console.log(reverseString("4321"))
+console.log(simpleArraySum([5, 4, 3, 23]))
