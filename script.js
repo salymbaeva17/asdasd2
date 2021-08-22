@@ -860,3 +860,8 @@
 // }
 //     console.log(letters)
 
+
+// let numbers =  [5, 3, 1, 2, 7]
+// for (let i = 0; i < numbers.length; i++) {
+//     console.log(numbers[i])
+// }
