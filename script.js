@@ -836,3 +836,14 @@
 // user2.name = "Petya"
 // console.log(user2)
 // console.log(user1)
+
+
+// const user1 = {
+//     name: "Misha",
+//     age: 25
+// }
+// const user2 = {...user1}
+// user2.name = "Petya"
+// console.log(user1)
+// console.log(user2)
+
