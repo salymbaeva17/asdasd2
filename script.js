@@ -781,3 +781,13 @@ console.log(maxRedigit(99))
 //     }
 // };
 // console.log(Calculator.average(3,4,5))
+
+
+
+const findSquares = num => {
+    let a = (num - 1) / 2
+    let b = a + 1
+    return `${b * b}-${a * a}`
+};
+console.log(findSquares(81))
+console.log(findSquares(5))
