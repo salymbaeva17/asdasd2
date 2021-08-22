@@ -865,3 +865,13 @@
 // for (let i = 0; i < numbers.length; i++) {
 //     console.log(numbers[i])
 // }
+
+
+// let multiply =  [5, 2, 1, 2]
+// let result = 1
+// for (let i = 0; i < multiply.length; i++){
+//     result *= multiply[i]
+// }
+// console.log(result)
+
+
