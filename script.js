@@ -789,3 +789,12 @@
 
 // console.log(arithmetic(50, 6, "multiply"))
 
+
+// const object = array => {
+//     return array.reduce((acc, item) => {
+//         if (acc[item] === undefined) {
+//             return {...acc, [item]: 1}
+//         }
+//         return {...acc, [item]: acc[item] + 1}
+//     }, {})
+// }
