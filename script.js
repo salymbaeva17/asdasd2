@@ -771,10 +771,13 @@ console.log(maxRedigit(99))
 // console.log(reverseString("4321"))
 
 
-function simpleArraySum(ar) {
-    let arr = ar.reduce((acc, item)=> acc+item, 0)
-    return arr
-
-}
-
-console.log(simpleArraySum([5, 4, 3, 23]))
+// const Calculator = {
+//     average: function(n1, n2, n3) {
+//         if (Calculator.average() === "number"){
+//             return (n1 + n2 + n3 )/ Calculator.average.length
+//         } else if ( !== "number"){
+//             return NaN
+//         }
+//     }
+// };
+// console.log(Calculator.average(3,4,5))
