@@ -852,3 +852,11 @@
 // for (let i = 1; i < 51; i++)
 // console.log(i)
 
+
+
+// let letters = []
+// for (let i = 0; i < 10; i++) {
+//     letters[i] = "X"
+// }
+//     console.log(letters)
+
