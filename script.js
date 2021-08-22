@@ -816,3 +816,11 @@
 // // array2[2] = 200
 // // console.log(array2)
 // // console.log(array)
+
+
+
+// let array = [22, 33, 44, 55]
+// let array2 = [...array]
+// array2[2] = 200
+// console.log(array2)
+// console.log(array)
