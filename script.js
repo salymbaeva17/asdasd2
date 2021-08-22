@@ -824,3 +824,15 @@
 // array2[2] = 200
 // console.log(array2)
 // console.log(array)
+
+
+
+
+// const user1 = {
+//     name: "Misha",
+//     age: 25
+// }
+// const user2 = user1
+// user2.name = "Petya"
+// console.log(user2)
+// console.log(user1)
