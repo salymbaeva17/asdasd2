@@ -798,3 +798,12 @@
 //         return {...acc, [item]: acc[item] + 1}
 //     }, {})
 // }
+
+
+
+// const object2 = array => {
+//     return array.reduce((acc, item) => {
+//         return {...acc, [item]: (acc[item] || 0) + 1}
+//     }, {})
+// }
+// console.log(object2(["a", "b", "a"]))
