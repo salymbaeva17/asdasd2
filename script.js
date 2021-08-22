@@ -667,36 +667,36 @@
 // console.log(array('1'))
 
 
-const findSquares = num => {
-    let a = (num - 1) / 2
-    let b = a + 1
-    return `${b * b}-${a * a}`
-};
-console.log(findSquares(81))
-console.log(findSquares(5))
-
-
-const maxRedigit = num => {
-    if (num < 100 || num > 1000) {
-        return null
-    } else if (num > 999) {
-        return null
-    } else if (num > 99 && num < 1000) {
-        return +`${num}`
-            .split("")
-            .sort((a, b) => b - a)
-            .join("")
-    } else if (num === +`${num}`.split("").sort((a, b) => b - a).join("")) {
-        return num
-    }
-
-}
-
-console.log(maxRedigit(123))
-console.log(maxRedigit(321))
-console.log(maxRedigit(-123))
-console.log(maxRedigit(1000))
-console.log(maxRedigit(99))
+// const findSquares = num => {
+//     let a = (num - 1) / 2
+//     let b = a + 1
+//     return `${b * b}-${a * a}`
+// };
+// console.log(findSquares(81))
+// console.log(findSquares(5))
+//
+//
+// const maxRedigit = num => {
+//     if (num < 100 || num > 1000) {
+//         return null
+//     } else if (num > 999) {
+//         return null
+//     } else if (num > 99 && num < 1000) {
+//         return +`${num}`
+//             .split("")
+//             .sort((a, b) => b - a)
+//             .join("")
+//     } else if (num === +`${num}`.split("").sort((a, b) => b - a).join("")) {
+//         return num
+//     }
+//
+// }
+//
+// console.log(maxRedigit(123))
+// console.log(maxRedigit(321))
+// console.log(maxRedigit(-123))
+// console.log(maxRedigit(1000))
+// console.log(maxRedigit(99))
 
 
 // const maskify = cc => {
@@ -783,35 +783,9 @@ console.log(maxRedigit(99))
 // console.log(Calculator.average(3,4,5))
 
 
+// function arithmetic(a, b, operator) {
+//     return operator === "add" ? a + b : operator === "subtract" ? a - b : operator === "multiply" ? a * b : operator === "divide" ? a / b : 0
+// }
 
-const findSquares1 = num => {
-    let a = (num - 1) / 2
-    let b = a + 1
-    return `${b * b}-${a * a}`
-};
-console.log(findSquares1(81))
-console.log(findSquares1(5))
+// console.log(arithmetic(50, 6, "multiply"))
 
-
-
-const maxRedigit = num => {
-    if (num < 100 || num > 1000) {
-        return null
-    } else if (num > 999) {
-        return null
-    } else if (num > 99 && num < 1000) {
-        return +`${num}`
-            .split("")
-            .sort((a, b) => b - a)
-            .join("")
-    } else if (num === +`${num}`.split("").sort((a, b) => b - a).join("")) {
-        return num
-    }
-
-}
-
-console.log(maxRedigit(123))
-console.log(maxRedigit(321))
-console.log(maxRedigit(-123))
-console.log(maxRedigit(1000))
-console.log(maxRedigit(99))
