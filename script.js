@@ -784,10 +784,10 @@ console.log(maxRedigit(99))
 
 
 
-const findSquares = num => {
+const findSquares1 = num => {
     let a = (num - 1) / 2
     let b = a + 1
     return `${b * b}-${a * a}`
 };
-console.log(findSquares(81))
-console.log(findSquares(5))
+console.log(findSquares1(81))
+console.log(findSquares1(5))
