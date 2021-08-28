@@ -881,3 +881,10 @@
 // ]))
 
 
+function bump(x){
+    return x.split("")
+        .filter(item => item === "n")
+        .length < 15 ? "Woohoo!" : "Car Dead"
+}
+
+console.log(bump("n______nnn_______n_nn_"))
