@@ -800,15 +800,12 @@
 // }
 
 
-
 // const object2 = array => {
 //     return array.reduce((acc, item) => {
 //         return {...acc, [item]: (acc[item] || 0) + 1}
 //     }, {})
 // }
 // console.log(object2(["a", "b", "a"]))
-
-
 
 
 // // let array = [22, 33, 44, 55]
@@ -818,14 +815,11 @@
 // // console.log(array)
 
 
-
 // let array = [22, 33, 44, 55]
 // let array2 = [...array]
 // array2[2] = 200
 // console.log(array2)
 // console.log(array)
-
-
 
 
 // const user1 = {
@@ -848,10 +842,8 @@
 // console.log(user2)
 
 
-
 // for (let i = 1; i < 51; i++)
 // console.log(i)
-
 
 
 // let letters = []
@@ -873,5 +865,19 @@
 //     result *= multiply[i]
 // }
 // console.log(result)
+
+
+// function addUsername(list) {
+//     return list.map(item => {
+//
+//         return {...item, username: (item.firstName.toLowerCase() + item.lastName.toLowerCase()[0] + ((new Date).getFullYear() - item.age))}
+//     })
+// }
+//
+//
+// console.log(addUsername([
+//     {firstName: 'Emily', lastName: 'N.', country: 'Ireland', continent: 'Europe', age: 30, language: 'Ruby'},
+//     {firstName: 'Nor', lastName: 'E.', country: 'Malaysia', continent: 'Asia', age: 20, language: 'Clojure'}
+// ]))
 
 
