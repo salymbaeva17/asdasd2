@@ -884,7 +884,24 @@
 function bump(x){
     return x.split("")
         .filter(item => item === "n")
-        .length < 15 ? "Woohoo!" : "Car Dead"
+        .length <= 15 ? "Woohoo!" : "Car Dead"
 }
 
 console.log(bump("n______nnn_______n_nn_"))
+
+
+const obj = {
+  "Bread": 50,
+    "Meat": 500,
+    "Tomato": 50,
+    "Water": 30,
+    "Pepper": 80,
+    "Cola": 100,
+    "Rice": 200
+}
+
+
+const sortObj = (obj) => {
+  return Object.fromEntries(Object.entries(obj).sort((a, b)=> a[1] - b[1]))
+}
+console.log(sortObj(obj))
