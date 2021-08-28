@@ -905,3 +905,12 @@ const sortObj = (obj) => {
   return Object.fromEntries(Object.entries(obj).sort((a, b)=> a[1] - b[1]))
 }
 console.log(sortObj(obj))
+
+
+function switcheroo(x){
+ return x.split("").map(symb => {
+     return symb === "a" ? "b": symb === "b" ? "a" : symb
+ }).join("")
+}
+
+console.log(switcheroo("abc"))
