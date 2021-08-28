@@ -914,3 +914,10 @@ function switcheroo(x){
 }
 
 console.log(switcheroo("abc"))
+
+
+function sum(digits) {
+    return digits > "0" ? Number(digits.split("").reduce((acc, item) => acc + +item, 0)) : digits
+}
+
+console.log(sum("9776"))
