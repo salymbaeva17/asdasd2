@@ -881,7 +881,7 @@
 // ]))
 
 
-function bump(x){
+function bump(x) {
     return x.split("")
         .filter(item => item === "n")
         .length <= 15 ? "Woohoo!" : "Car Dead"
@@ -891,7 +891,7 @@ console.log(bump("n______nnn_______n_nn_"))
 
 
 const obj = {
-  "Bread": 50,
+    "Bread": 50,
     "Meat": 500,
     "Tomato": 50,
     "Water": 30,
@@ -902,22 +902,27 @@ const obj = {
 
 
 const sortObj = (obj) => {
-  return Object.fromEntries(Object.entries(obj).sort((a, b)=> a[1] - b[1]))
+    return Object.fromEntries(Object.entries(obj).sort((a, b) => a[1] - b[1]))
 }
 console.log(sortObj(obj))
 
 
-function switcheroo(x){
- return x.split("").map(symb => {
-     return symb === "a" ? "b": symb === "b" ? "a" : symb
- }).join("")
+function switcheroo(x) {
+    return x.split("").map(symb => {
+        return symb === "a" ? "b" : symb === "b" ? "a" : symb
+    }).join("")
 }
 
 console.log(switcheroo("abc"))
 
 
 function sum(digits) {
-    return digits > "0" ? Number(digits.split("").reduce((acc, item) => acc + +item, 0)) : digits
+    if (typeof digits !== "number" && typeof digits !== "string" && !digits) return ""
+    digits = String(digits)
+    const res = digits.split("").reduce((acc, item) => `${acc} + ${item}`)
+    const sum = digits.split("").reduce((acc, item) => +acc + +item, 0)
+    return `${res} = ${sum}`
+
 }
 
 console.log(sum("9776"))
