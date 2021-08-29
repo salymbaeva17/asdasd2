@@ -952,3 +952,13 @@ console.log(findSenior([
     { firstName: 'Emilija', lastName: 'S.', country: 'Lithuania', continent: 'Europe', age: 19, language: 'Python' },
     { firstName: 'Sou', lastName: 'B.', country: 'Japan', continent: 'Asia', age: 49, language: 'PHP' },
 ]))
+
+
+function findUniq(arr) {
+    if (arr.length >= 3){
+        return arr.find(item => arr.indexOf(item) === arr.lastIndexOf(item))
+    }
+}
+
+console.log(findUniq([ 1, 1, 1, 2, 1, 1 ]))
+console.log(findUniq([ 1, 2]))
