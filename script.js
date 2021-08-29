@@ -937,3 +937,18 @@ console.log(getFirstPython([
     {firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript'},
     {firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure'}
 ]))
+
+
+
+function findSenior(list) {
+    let result = list.map(item => item.age)
+    let maxAge =  Math.max(...result)
+    return list.filter(item => item.age === maxAge)
+}
+
+console.log(findSenior([
+    { firstName: 'Gabriel', lastName: 'X.', country: 'Monaco', continent: 'Europe', age: 49, language: 'PHP' },
+    { firstName: 'Odval', lastName: 'F.', country: 'Mongolia', continent: 'Asia', age: 38, language: 'Python' },
+    { firstName: 'Emilija', lastName: 'S.', country: 'Lithuania', continent: 'Europe', age: 19, language: 'Python' },
+    { firstName: 'Sou', lastName: 'B.', country: 'Japan', continent: 'Asia', age: 49, language: 'PHP' },
+]))
