@@ -961,4 +961,17 @@ function findUniq(arr) {
 }
 
 console.log(findUniq([ 1, 1, 1, 2, 1, 1 ]))
-console.log(findUniq([ 1, 2]))
+
+
+function persistence(num) {
+    let counter = 0
+    while (num >= 10){
+        num = num.toString().split("").reduce((acc, item)=> acc * item, 1)
+        counter++
+    }
+    return counter
+
+}
+
+console.log(persistence(999))
+console.log(persistence(39))
