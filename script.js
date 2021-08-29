@@ -975,3 +975,13 @@ function persistence(num) {
 
 console.log(persistence(999))
 console.log(persistence(39))
+
+
+let capitals = function (word) {
+    return word.split("").reduce((acc, item, idx) => {
+        if (item.toUpperCase() === item) return [...acc, idx]
+        return acc
+    }, [])
+}
+
+console.log(capitals("CodEWaRs"))
