@@ -881,107 +881,120 @@
 // ]))
 
 
-function bump(x) {
-    return x.split("")
-        .filter(item => item === "n")
-        .length <= 15 ? "Woohoo!" : "Car Dead"
-}
+// function bump(x) {
+//     return x.split("")
+//         .filter(item => item === "n")
+//         .length <= 15 ? "Woohoo!" : "Car Dead"
+// }
+//
+// console.log(bump("n______nnn_______n_nn_"))
+//
+//
+// const obj = {
+//     "Bread": 50,
+//     "Meat": 500,
+//     "Tomato": 50,
+//     "Water": 30,
+//     "Pepper": 80,
+//     "Cola": 100,
+//     "Rice": 200
+// }
+//
+//
+// const sortObj = (obj) => {
+//     return Object.fromEntries(Object.entries(obj).sort((a, b) => a[1] - b[1]))
+// }
+// console.log(sortObj(obj))
+//
+//
+// function switcheroo(x) {
+//     return x.split("").map(symb => {
+//         return symb === "a" ? "b" : symb === "b" ? "a" : symb
+//     }).join("")
+// }
+//
+// console.log(switcheroo("abc"))
+//
+//
+// function sum(digits) {
+//     if (typeof digits !== "number" && typeof digits !== "string" && !digits) return ""
+//     digits = String(digits)
+//     const res = digits.split("").reduce((acc, item) => `${acc} + ${item}`)
+//     const sum = digits.split("").reduce((acc, item) => +acc + +item, 0)
+//     return `${res} = ${sum}`
+//
+// }
+//
+// console.log(sum("9776"))
+//
+//
+// function getFirstPython(list) {
+//     let result = list.find(item => item.language === "Python")
+//     return result ? `${result.firstName}, ${result.country}` : "There will be no Python developers"
+// }
+//
+// console.log(getFirstPython([
+//     {firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript'},
+//     {firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure'}
+// ]))
+//
+//
+//
+// function findSenior(list) {
+//     let result = list.map(item => item.age)
+//     let maxAge =  Math.max(...result)
+//     return list.filter(item => item.age === maxAge)
+// }
+//
+// console.log(findSenior([
+//     { firstName: 'Gabriel', lastName: 'X.', country: 'Monaco', continent: 'Europe', age: 49, language: 'PHP' },
+//     { firstName: 'Odval', lastName: 'F.', country: 'Mongolia', continent: 'Asia', age: 38, language: 'Python' },
+//     { firstName: 'Emilija', lastName: 'S.', country: 'Lithuania', continent: 'Europe', age: 19, language: 'Python' },
+//     { firstName: 'Sou', lastName: 'B.', country: 'Japan', continent: 'Asia', age: 49, language: 'PHP' },
+// ]))
+//
+//
+// function findUniq(arr) {
+//     if (arr.length >= 3){
+//         return arr.find(item => arr.indexOf(item) === arr.lastIndexOf(item))
+//     }
+// }
+//
+// console.log(findUniq([ 1, 1, 1, 2, 1, 1 ]))
+//
+//
+// function persistence(num) {
+//     let counter = 0
+//     while (num >= 10){
+//         num = num.toString().split("").reduce((acc, item)=> acc * item, 1)
+//         counter++
+//     }
+//     return counter
+//
+// }
+//
+// console.log(persistence(999))
+// console.log(persistence(39))
 
-console.log(bump("n______nnn_______n_nn_"))
+
+// let capitals = function (word) {
+//     return word.split("").reduce((acc, item, idx) => {
+//         if (item.toUpperCase() === item) return [...acc, idx]
+//         return acc
+//     }, [])
+// }
+//
+// console.log(capitals("CodEWaRs"))
 
 
-const obj = {
-    "Bread": 50,
-    "Meat": 500,
-    "Tomato": 50,
-    "Water": 30,
-    "Pepper": 80,
-    "Cola": 100,
-    "Rice": 200
-}
-
-
-const sortObj = (obj) => {
-    return Object.fromEntries(Object.entries(obj).sort((a, b) => a[1] - b[1]))
-}
-console.log(sortObj(obj))
-
-
-function switcheroo(x) {
-    return x.split("").map(symb => {
-        return symb === "a" ? "b" : symb === "b" ? "a" : symb
-    }).join("")
-}
-
-console.log(switcheroo("abc"))
-
-
-function sum(digits) {
-    if (typeof digits !== "number" && typeof digits !== "string" && !digits) return ""
-    digits = String(digits)
-    const res = digits.split("").reduce((acc, item) => `${acc} + ${item}`)
-    const sum = digits.split("").reduce((acc, item) => +acc + +item, 0)
-    return `${res} = ${sum}`
-
-}
-
-console.log(sum("9776"))
-
-
-function getFirstPython(list) {
-    let result = list.find(item => item.language === "Python")
-    return result ? `${result.firstName}, ${result.country}` : "There will be no Python developers"
-}
-
-console.log(getFirstPython([
-    {firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript'},
-    {firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure'}
-]))
-
-
-
-function findSenior(list) {
-    let result = list.map(item => item.age)
-    let maxAge =  Math.max(...result)
-    return list.filter(item => item.age === maxAge)
-}
-
-console.log(findSenior([
-    { firstName: 'Gabriel', lastName: 'X.', country: 'Monaco', continent: 'Europe', age: 49, language: 'PHP' },
-    { firstName: 'Odval', lastName: 'F.', country: 'Mongolia', continent: 'Asia', age: 38, language: 'Python' },
-    { firstName: 'Emilija', lastName: 'S.', country: 'Lithuania', continent: 'Europe', age: 19, language: 'Python' },
-    { firstName: 'Sou', lastName: 'B.', country: 'Japan', continent: 'Asia', age: 49, language: 'PHP' },
-]))
-
-
-function findUniq(arr) {
-    if (arr.length >= 3){
-        return arr.find(item => arr.indexOf(item) === arr.lastIndexOf(item))
+let Capitals = function (word) {
+    let arr = []
+    for (let i = 0; i < word.length; i++){
+        if (word[i] === word[i].toUpperCase()){
+            arr = [...arr, i]
+        }
     }
+    return arr
 }
 
-console.log(findUniq([ 1, 1, 1, 2, 1, 1 ]))
-
-
-function persistence(num) {
-    let counter = 0
-    while (num >= 10){
-        num = num.toString().split("").reduce((acc, item)=> acc * item, 1)
-        counter++
-    }
-    return counter
-
-}
-
-console.log(persistence(999))
-console.log(persistence(39))
-
-
-let capitals = function (word) {
-    return word.split("").reduce((acc, item, idx) => {
-        if (item.toUpperCase() === item) return [...acc, idx]
-        return acc
-    }, [])
-}
-
-console.log(capitals("CodEWaRs"))
+console.log(Capitals("CodEWaRs"))
