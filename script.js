@@ -926,3 +926,14 @@ function sum(digits) {
 }
 
 console.log(sum("9776"))
+
+
+function getFirstPython(list) {
+    let result = list.find(item => item.language === "Python")
+    return result ? `${result.firstName}, ${result.country}` : "There will be no Python developers"
+}
+
+console.log(getFirstPython([
+    {firstName: 'Mark', lastName: 'G.', country: 'Scotland', continent: 'Europe', age: 22, language: 'JavaScript'},
+    {firstName: 'Emma', lastName: 'B.', country: 'Norway', continent: 'Europe', age: 19, language: 'Clojure'}
+]))
