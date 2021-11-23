@@ -1042,3 +1042,12 @@ function howManydays(month){
   }
   return days;
 }
+
+function padIt(str,n){
+  count=0
+  while( count<n){
+    count%2 ? str+="*": str= "*"+str
+    count++
+  }
+  return str
+}
